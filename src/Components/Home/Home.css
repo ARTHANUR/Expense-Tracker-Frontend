@@ -1,0 +1,49 @@
+.container{
+    width: 90vw;
+    height: 50vh;
+    
+    >form{
+        border: 3px solid white;
+        box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.248);
+        width: 60%;
+        height: 100%;
+        margin: 0 auto;
+        border-radius: 18px;
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.394);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+        >div{
+            display: flex;
+            gap: 4rem;
+            align-items: flex-start;
+            >div{
+                display: flex;
+                gap: 1rem;
+            }
+
+        }
+        >button{
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+    }
+}
+input {
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 1.25rem;
+}
+select{
+    border: none;
+    outline: none;
+    width: 10rem;
+}

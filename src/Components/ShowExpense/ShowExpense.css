@@ -1,0 +1,78 @@
+.expense-container{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    >div{
+        animation: reveal 1s ease-in-out ;
+        box-shadow: inset 5px 5px 10px 0px rgb(127, 125, 125);
+        border: 1px solid whitesmoke;
+        border-radius: 20px;
+        width: 80%;
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        >span{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            >h2{
+                margin: 0;
+                font-size: 1.75rem;
+            }
+            >p{
+                margin: 0;
+                font-size:0.75rem ;
+            }
+
+        }
+    }
+}
+
+.food{
+    background-color: var(--food-color);
+}
+.transportation{
+    background-color: var(--transportation-color);
+}
+.housing{
+    background-color: var(--housing-color);
+}
+.healthcare{
+    background-color: var(--healthcare-color);
+}
+.shopping{
+    background-color: var(--shopping-color);
+}
+.emi{
+    background-color: var(--emi-color);
+}
+
+.payment-method{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    >span{
+        transform: scale(0.7);
+    }
+}
+
+.btn-container{
+    width: 90vw;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    >button{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        >span{
+            font-size: 1.25rem;
+        }
+    }
+}
